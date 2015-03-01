@@ -21,7 +21,7 @@ O codigo inicializa o PRNG com a funcao microseconds(). A partir dai o PRNG debi
     }  
     print 'v0='.$r.'<br>';  
     for ($i=1; $i<4; $i++)  
-    	print 'v'.$i.'='.mt_rand(0, 0xffffff).'<br>';  // v4 é a resposta
+    	print 'v'.$i.'='.mt_rand(0, 0xffffff).'<br>';  // v3 é a resposta
 
 ## Other write-ups and resources
 
